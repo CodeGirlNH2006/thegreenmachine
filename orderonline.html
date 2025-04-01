@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Green Machine | Order Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- Banner Image, will add to later -->
+    <div class="row">
+        <div class="col">
+            <div class="mt-4 ms-2 me-2 mb-2 p-5 banner">
+                <h1 class="title">The Green Machine</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <button class="btn navbar-btn"><a href="orderonline.html">Order Online!</a></button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    <!-- Food order form-->
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <form method="GET" action="#" name="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="Your phone.." required>
+                <br/> <br/>
+                Your order (PICKUP ONLY)
+                <br/> <br/>
+                The Green Grill
+                <br/> <br/>
+                <input type="checkbox" name="Black Bean Burger" id="Black Bean Burger" value="Black Bean Burger"/>
+                <label for="Black Bean Burger">Black Bean Burger</label>
+                <input type="checkbox" name="'Chicken' Wings" id="'Chicken' Wings" value="'Chicken' Wings"/>
+                <label for="'Chicken' Wings">"Chicken" Wings</label>
+                <input type="checkbox" name="Grilled Vegetable Skewers" id="Grilled Vegetable Skewers" value="Grilled Vegetable Skewers"/>
+                <label for="Grilled Vegetable Skewers">Grilled Vegetable Skewers</label>
+                <input type="checkbox" name="Portbello" id="Portbello" value="Portbello"/>
+                <label for="Portbello">Portbello Mushroom Steaks</label>
+                <input type="checkbox" name="BBQ" id="BBQ" value="BBQ"/>
+                <label for="BBQ">BBQ Jackfruit Sandwich</label>
+                <br/> <br/>
+                Pasta Dishes
+                <br/> <br/>
+                <input type="checkbox" name="Besto" id="Besto" value="Besto"/>
+                <label for="Besto">Besto Pesto</label>
+                <input type="checkbox" name="Garlic" id="Garlic" value="Garlic"/>
+                <label for="Garlic">Creamy Garlic Pasta</label>
+                <input type="checkbox" name="Pepper" id="Pepper" value="Pepper"/>
+                <label for="Pepper">Pepper Pasta</label>
+                <input type="checkbox" name="Marinara" id="Marinara" value="Marinara"/>
+                <label for="Marinara">Marinara</label>
+                <br/> <br/>
+                Soups and Salads
+                <br/> <br/>
+                <input type="checkbox" name="Vegetable Soup" id="Vegetable Soup" value="Vegetable Soup"/>
+                <label for="Vegetable Soup">Vegetable Soup</label>
+                <input type="checkbox" name="Tomato" id="Tomato" value="Tomato"/>
+                <label for="Tomato">Creamy Tomato Soup</label>
+                <input type="checkbox" name="Noodle" id="Noodle" value="Noodle"/>
+                <label for="Noodle">Noodle and Herb Soup</label>
+                <input type="checkbox" name="Minestrone" id="Minestrone" value="Minestrone"/>
+                <label for="Minestrone">Minestrone Soup</label>
+                <input type="checkbox" name="House" id="House" value="House"/>
+                <label for="House">House Salad</label>
+                <input type="checkbox" name="Caesar" id="Caesar" value="Caesar"/>
+                <label for="Caesar">Caesar Salad</label>
+                <input type="checkbox" name="Raspberry" id="Raspberry" value="Raspberry"/>
+                <label for="Raspberry">Raspberry Walnut Salad</label>
+                <br/> <br/>
+                Desserts
+                <br/> <br/>
+                <input type="checkbox" name="Cake" id="Cake" value="Cake"/>
+                <label for="Cake">Vegan Chocolate Cake</label>
+                <input type="checkbox" name="Mousse" id="Mousse" value="Mousse"/>
+                <label for="Mousse">Chocolate Avocado Mousse</label>
+                <input type="checkbox" name="Banana Bread" id="Banana Bread" value="Banana Bread"/>
+                <label for="Banana Bread">Banana Bread</label>
+                <input type="checkbox" name="Coconut" id="Coconut" value="Coconut"/>
+                <label for="Coconut">Coconut Ice Cream</label>
+                <br/> <br/>
+                Comments (optional)
+                <br/> <br/>
+                <textarea rows="4" cols="50" name="comments" id="comments" placeholder="Insert any comments here!"></textarea>
+                <br/> <br/>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
